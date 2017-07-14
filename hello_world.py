@@ -1,7 +1,8 @@
-num = "10"
-realnum = 10
-num2 = float(num)
 
-print (num2 * 2)
 
-print (str(num) + str(realnum))
+for i in range(1,51):
+    if i % 3 == 0:
+        continue
+    print(i)
+    
+    
